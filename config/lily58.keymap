@@ -10,10 +10,12 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/led/led.h>
 
+// TEMP FIX - incude code of the nice!nano_v2.overlay that doesn't works.
+// 
 #define SPI_FREQ    4000000
 #define ZERO_FRAME  0x40
 #define ONE_FRAME   0x70
-#define STRIP_LEN   1
+#define STRIP_LEN   35
 
 &pinctrl {
 	spi3_default: spi3_default {
@@ -60,6 +62,8 @@
 		zmk,underglow = &led_strip;
 	};
 };
+//
+// END OF FIX
 
 / {
 	keymap {
