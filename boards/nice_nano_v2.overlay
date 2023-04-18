@@ -3,7 +3,7 @@
 #define SPI_FREQ    4000000
 #define ZERO_FRAME  0x40
 #define ONE_FRAME   0x70
-#define STRIP_LEN   35
+#define STRIP_LEN   6
 
 &pinctrl {
 	spi3_default: spi3_default {
