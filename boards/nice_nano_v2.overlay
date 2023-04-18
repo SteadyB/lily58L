@@ -3,7 +3,7 @@
 #define SPI_FREQ    3000000
 #define ZERO_FRAME  0x40
 #define ONE_FRAME   0x70
-#define NUM_LEDS    35
+#define STRIP_LEN   6
 
 &pinctrl {
 	spi3_default: spi3_default {
@@ -36,7 +36,7 @@
 		spi-max-frequency = <SPI_FREQ>;
 
 		/* WS2812 */
-		chain-length = <NUM_LEDS>;/* arbitrary; change at will */
+		chain-length = <STRIP_LEN>;/* arbitrary; change at will */
 		spi-one-frame = <ONE_FRAME>;
 		spi-zero-frame = <ZERO_FRAME>;
 
