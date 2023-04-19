@@ -8,10 +8,10 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
-#include <dt-bindings/led/led.h>
 
-// TEMP FIX - incude code of the nice!nano_v2.overlay that doesn't works.
+// TEMP FIX - incude code of the nice!nano_v2.overlay that doesn't works. (see ZMK PR#885)
 // 
+#include <dt-bindings/led/led.h>
 #define SPI_FREQ    4000000
 #define ZERO_FRAME  0x40
 #define ONE_FRAME   0x70
