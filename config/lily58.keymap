@@ -10,7 +10,7 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 #include <dt-bindings/led/led.h>
-//
+
 #define SPI_FREQ    4000000
 #define ZERO_FRAME  0x40
 #define ONE_FRAME   0x70
