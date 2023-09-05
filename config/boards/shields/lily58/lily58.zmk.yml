@@ -8,6 +8,8 @@ exposes: [i2c_oled]
 features:
   - keys
   - display
+  - encoder
+  - underglow
 siblings:
   - lily58_left
   - lily58_right
