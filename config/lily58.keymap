@@ -8,7 +8,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
-#include <boards/shields/lily58/boards/nice_nano_v2.overlay>
+#include </boards/shields/lily58/boards/nice_nano_v2.overlay>
 
 / {
     keymap {
